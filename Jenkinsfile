@@ -19,7 +19,7 @@ node {
         currentBuild.result = 'FAILED'
     } finally {
         stage('Clean workspace') {
-           cleanWs()
+           // cleanWs()
         }
     }
 }
